@@ -23,6 +23,24 @@ This repository documents my self-study of reasoning LLMs, following the book an
 
 ## Setup
 
+### Quick Start (Recommended)
+
+First, install [uv](https://docs.astral.sh/uv/):
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+Then run the project:
+```bash
+# Clone this repo
+git clone https://github.com/typewires/reasoning-from-scratch.git
+cd reasoning-from-scratch
+
+# Run Jupyter Lab (uv handles virtual env + dependencies automatically)
+uv run jupyter lab
+```
+
+### Traditional Setup (Alternative)
 ```bash
 # Clone this repo
 git clone https://github.com/typewires/reasoning-from-scratch.git
@@ -35,6 +53,7 @@ source .venv/bin/activate  # Mac/Linux
 
 # Install dependencies
 pip install -r requirements.txt
+jupyter lab
 ```
 
 ## Acknowledgments
