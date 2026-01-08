@@ -17,8 +17,18 @@ math500_test.json
 math_train.json
 *.jsonl
 
-# Source repository files
+# Source repository files (original author's files)
 README_Raschka.md
+ch01/
+ch02/
+ch03/
+ch04/
+ch05/
+ch06/
+ch07/
+chC/
+chF/
+chG/
 
 # Installation artifacts
 uv.lock
