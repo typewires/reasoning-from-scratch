@@ -32,6 +32,9 @@ chG/
 
 # Installation artifacts
 uv.lock
+pyproject.toml
+tests/
+reasoning_from_scratch/
 
 # Temporary OS files
 .DS_Store
