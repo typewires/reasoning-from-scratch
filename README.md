@@ -10,7 +10,7 @@ This repository documents my self-study of reasoning LLMs, following the book an
 
 - [Chapter 1: Understanding Reasoning Models](https://github.com/typewires/reasoning-from-scratch/tree/main/chapter1)
 - [Chapter 2: Generating Text with a Pre-trained LLM](https://github.com/typewires/reasoning-from-scratch/tree/main/chapter2)
-- Chapter 3: Evaluating Reasoning Models
+- [Chapter 3: Evaluating Reasoning Models](https://github.com/typewires/reasoning-from-scratch/tree/main/chapter3)
 - Chapter 4: Improving Reasoning with Inference-Time Scaling
 - Chapter 5: Inference-Time Scaling via Self-Refinement
 - Chapter 6: Training Reasoning Models with Reinforcement Learning
