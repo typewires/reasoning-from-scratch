@@ -30,6 +30,15 @@ chC/
 chF/
 chG/
 
+# Ignore everything except our custom chapters
+/*
+!chapter1/
+!chapter2/  
+!chapter3/
+!README.md
+!requirements.txt
+!.gitignore
+
 # Installation artifacts
 uv.lock
 pyproject.toml
