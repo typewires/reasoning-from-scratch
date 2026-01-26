@@ -23,8 +23,12 @@ math500_test.json
 math_train.json
 *.jsonl
 
-# Source repository files (original author's files)
-README_Raschka.md
+# ============================================================
+# UPSTREAM FILES (rasbt/reasoning-from-scratch) - KEEP LOCAL ONLY
+# ============================================================
+# These files are pulled from upstream for local use but NOT pushed to GitHub
+
+# Upstream chapter directories
 ch01/
 ch02/
 ch03/
@@ -36,21 +40,27 @@ chC/
 chF/
 chG/
 
-# Ignore everything except our custom chapters
+# Upstream package and config files
+reasoning_from_scratch/
+tests/
+pyproject.toml
+uv.lock
+troubleshooting.md
+README_Raschka.md
+
+# ============================================================
+# MY FILES - THESE GET PUSHED TO GITHUB
+# ============================================================
+# Only track: chapter1/, chapter2/, chapter3/, chapter4/, README.md, requirements.txt, .gitignore
+
 /*
 !chapter1/
-!chapter2/  
+!chapter2/
 !chapter3/
 !chapter4/
 !README.md
 !requirements.txt
 !.gitignore
-
-# Installation artifacts
-uv.lock
-pyproject.toml
-tests/
-reasoning_from_scratch/
 
 # Temporary OS files
 .DS_Store
