@@ -1,5 +1,11 @@
+# Plotting
+*.pdf
+*.png
+
 # Other temporary files
 checkpoints
+*.pth
+*.csv
 logs
 *.jsonl
 Untitled.ipynb
@@ -179,6 +185,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+.vscode
 .env
 .venv
 env/
